@@ -1,4 +1,4 @@
-Hooking Instagram app from Titanium Mobile app
+Hooks Instagram from Titanium Mobile app
 ===========================================
 
 INSTALL MODULE
@@ -63,7 +63,24 @@ For example,
 			},
 		});
 	});
+	
+MODULE REFERENCE
+-------------------------
 
+*	Properties
+
+Name 			| Description
+:------------	| :-------------
+isInstalled 	| true - Instagram is installed. false - Instagram is *NOT* installed.
+
+*	Functions
+
+Name 				| Description
+:---------------	| :-------------
+openPhoto(args)	| Open Instagram app. 
+					| args.media(blob) : passing this image to Instagram
+					| args.caption(string) : passing this text to Instagram
+	
 	
 LICENSE
 -------------------------
